@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(Montserrat/Montserrat-Medium.ttf);
+}
+.part5 {
+  background-color: #2E2B2B;
+  color: #fff;
+}
+@media (max-width: 376px) {
+  .part5 {
+    padding-top: 150px;
+  }
+}
+
+.part5__top {
+  background-color: #01727D;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.part5__title {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .part5__title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 376px) {
+  .part5__title {
+    display: none;
+  }
+}
+
+.part5__description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .part5__description {
+    font-size: 14px;
+  }
+}
+@media (max-width: 376px) {
+  .part5__description {
+    display: none;
+  }
+}
+
+.part5__buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 850px;
+  margin-top: -50px;
+}
+@media (max-width: 768px) {
+  .part5__buttons {
+    margin-left: 600px;
+  }
+}
+
+.part5__button {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  .part5__button {
+    font-size: 9px;
+    padding: 5px 10px;
+  }
+}
+
+.part5__button_joinus {
+  background-color: #F2B138;
+  color: rgb(58, 37, 11);
+}
+@media (max-width: 376px) {
+  .part5__button_joinus {
+    display: none;
+  }
+}
+
+.part5__button_joinus:hover {
+  background-color: #d20101;
+}
+
+.part5__button_contactus {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+@media (max-width: 376px) {
+  .part5__button_contactus {
+    display: none;
+  }
+}
+
+.part5__button_contactus:hover {
+  background-color: #F2B138;
+  color: #2E2B2B;
+}
+
+.part5__end {
+  padding: 20px;
+  text-align: center;
+}
+
+.part5__separator {
+  border-top: 1px solid #fff;
+  margin: 20px 0;
+}
+
+.part5__social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.part5__social-link {
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.part5__copyright {
+  font-size: 0.8em;
+}/*# sourceMappingURL=part5.css.map */

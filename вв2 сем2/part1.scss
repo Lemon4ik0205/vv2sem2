@@ -1,0 +1,110 @@
+
+@font-face{
+    font-family: "montserrat";
+    src: url(Montserrat/Montserrat-Medium.ttf);
+}
+body{
+    background-color: #fff;
+    margin:0;
+    padding:0;
+    font-family:"montserrat";
+}
+.part1{
+    background-color: #01727D;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding:15px; 
+}
+.part1__signin{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(58, 37, 11);
+    text-decoration:none;
+    font-weight: bold;
+    background-color: #F2B138;
+    border: 1px solid #01727D; 
+    border-radius: 50px; 
+    cursor: pointer;
+    @media(max-width:376px){
+        font-size: 10px;
+    }
+}
+.part1__signin:hover{
+    background-color: #d20101;
+}
+.part1__nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 50px; 
+    color: #fff;
+    list-style: none;
+    @media(max-width:376px){
+        padding: 10px 15px;
+        font-size: 9px;
+    }
+}
+.part1__nav-item{
+    margin-left: 20px;
+    color: #fff;
+}
+.part1__nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+.part1__logo{
+    font-size: 18px;
+    color: white;
+    margin-right: 90px;
+    @media(max-width:376px){
+        margin-right: 5px;
+        font-size: 12px;
+    }
+}
+.how {
+    background-color: #FDF6F6;
+    color: #2E2B2B;
+    padding: 100px 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.how__content{
+    max-width: 500px;
+    padding-left: 50px;
+}
+.how__title {
+    font-size: 50px; 
+    margin-bottom: 20px;
+}
+.how__lorem {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #2E2B2B;
+}
+.seemore{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F2B138;
+    color: rgb(58, 37, 11);
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+.seemore:hover{
+    background-color: #d20101;
+}
+.how__image {
+    max-width: 300px;
+}
+.how__img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    @media(max-width:376px){
+        display: none;
+    }
+}
